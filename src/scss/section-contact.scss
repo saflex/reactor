@@ -1,0 +1,147 @@
+.mp1 {
+	width: 22%;
+	background: #ffdc50;
+	padding: 30px;
+	height: 366px;
+	padding-right: 18px;
+	padding-left: 18px;
+	position: relative;
+}
+.mp2 {
+	width: 40%;
+}
+.mp3 {
+	width: 38%;
+	img {
+		width: 100%;
+		height: 366px;
+		object-fit: cover;
+	}
+}
+#map {
+	width: 100%;
+	height: 366px;
+}
+#map2 {
+	width: 100%;
+	height: 366px;
+}
+#map3 {
+	width: 100%;
+	height: 366px;
+}
+#map4 {
+	width: 100%;
+	height: 366px;
+}
+.nt2-tab-area {
+	clear: both;
+	margin-top: 65px;
+}
+div#exTab3 {
+	.dropdown-toggle {
+		height: 24px;
+		display: inline-block;
+	}
+}
+.bns-area {
+	p {
+		padding-left: 17px;
+		margin-bottom: 5px;
+	}
+	margin-bottom: 15px;
+	a {
+		color: #FF0000;
+		border-bottom: 1px dotted #FF0000;
+		text-decoration: none;
+		margin-left: 15px;
+		&:hover {
+			border-bottom: 0;
+			opacity: 0.7;
+		}
+	}
+}
+.fll.mp1 {
+	h4 {
+		font-weight: bold;
+		margin-top: 0;
+		margin-bottom: 23px;
+	}
+}
+.plto2 {
+	font-size: 18px;
+	font-weight: bold;
+	span {
+		font-size: 14px;
+		font-style: italic;
+		font-weight: normal;
+	}
+}
+p.plto2 {
+	span {
+		margin-left: 7px;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		width: 22px;
+		height: 21px;
+		background: url(../img/background-img/header-phone.png) 0 0 no-repeat;
+		margin-left: -25px;
+		margin-top: 2px;
+	}
+}
+p.plto {
+	&:before {
+		content: '';
+		position: absolute;
+		width: 17px;
+		height: 21px;
+		background: url(../img/background-img/header-location.png) 0 0 no-repeat;
+		margin-left: -20px;
+		margin-top: 0px;
+	}
+}
+p.plto3 {
+	&:before {
+		content: '';
+		position: absolute;
+		width: 13px;
+		height: 13px;
+		background: url(../img/background-img/cl.png) 0 0 no-repeat;
+		margin-left: -17px;
+		margin-top: 3px;
+	}
+}
+.posa-btn {
+	position: absolute;
+	bottom: 10px;
+	width: 222px;
+}
+.section-contact {
+	margin-top: 40px;
+}
+#exTab3 {
+	.nav {
+		>li {
+			>a {
+				position: relative;
+				display: block;
+				padding: 9px 18px;
+				height: 35px;
+			}
+		}
+	}
+}
+#exTab2 {
+	.nav {
+		>li {
+			>a {
+				position: relative;
+				display: block;
+				padding: 9px 18px;
+				height: 36px;
+			}
+		}
+	}
+}

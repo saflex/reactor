@@ -1,0 +1,127 @@
+.button.yellow-btn {
+	background: #FFDC50;
+	float: right;
+	padding: 8px 15px;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	border-radius: 5px;
+	border-bottom: 3px solid #CEAD56;
+	width: 100%;
+	text-decoration: none;
+	margin-top: -11px;
+	text-align: center;
+	&:hover {
+		opacity: 0.7;
+		opacity: 1;
+		border-bottom: 3px solid #FFDC50;
+	}
+}
+.slick-dots {
+	li {
+		button {
+			font-size: 0;
+			line-height: 0;
+			display: block;
+			width: 20px;
+			height: 20px;
+			padding: 5px;
+			cursor: pointer;
+			color: transparent;
+			border: 0;
+			outline: none;
+			background: transparent;
+			&:hover {
+				outline: none;
+				&:before {
+					//opacity: 1;
+				}
+			}
+			&:focus {
+				outline: none;
+				&:before {
+					//opacity: 1;
+				}
+			}
+			&:before {
+				font-family: 'slick';
+				font-size: 34px;
+				line-height: 20px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 20px;
+				height: 20px;
+				content: '•';
+				text-align: center;
+				opacity: .25;
+				color: black;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+		}
+	}
+	li.slick-active {
+		button {
+			&:before {
+				opacity: .75;
+				color: black;
+			}
+		}
+	}
+}
+.button.white-btn {
+	background: #fff;
+	display: block;
+	text-align: center;
+	color: #FF0000;
+	margin-bottom: 10px;
+	padding: 10px;
+	left: 0;
+	text-decoration: none;
+	right: 0;
+	border-radius: 4px;
+	width: 100%;
+	border-bottom: 4px solid #CCAB5C;
+	span {
+		border-bottom: 1px dotted #FF0000;
+	}
+	&:hover {
+		background: #FF0000;
+		color: #fff;
+		border-bottom: 4px solid #a20505;
+		background: #FF0000;
+		color: #fff;
+		border-bottom: 4px solid #FF0000;
+		span {
+			border-bottom: 1px dotted #fff;
+		}
+	}
+}
+.button.yellow-btn.red-btn {
+	background: #f91616;
+	color: #fff;
+	border-bottom-color: #880707;
+	margin-top: 10px;
+	height: 39px;
+	padding-top: 12px;
+	&:hover {
+		border-bottom-color: #f91616;
+	}
+}
+button.fll.no-shows {
+	background: #FE1C1C;
+	width: 115px;
+	position: absolute;
+	margin-left: -100px;
+	display: block;
+	right: 0;
+	color: #fff;
+	padding: 16px 4px;
+	margin-top: -4px;
+	border-radius: 4px;
+	line-height: 1px;
+	font-size: 13px;
+	&:hover {
+		background: #d81919;
+	}
+}

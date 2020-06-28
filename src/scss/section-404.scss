@@ -1,0 +1,40 @@
+.area404 {
+	ul {
+		margin: 24px 0 31px;
+		a {
+			color: #FF2222;
+			text-decoration: underline;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+		li {
+			padding-left: 20px;
+			margin-bottom: 17px;
+			&:before {
+				content: "_";
+				position: absolute;
+				margin-left: -17px;
+				margin-top: -7px;
+			}
+		}
+	}
+}
+.img-404 {
+	position: absolute;
+	width: 361px;
+	height: 310px;
+	background: url(../img/background-img/car404.png) 0 0 no-repeat;
+	margin-top: -285px;
+	margin-left: 460px;
+}
+.section-404 {
+	a.button.yellow-btn.rbtn {
+		max-width: 217px;
+		float: left;
+		margin-bottom: 90px;
+		height: 38px;
+		padding-top: 11px;
+		margin-top: 12px;
+	}
+}

@@ -1,0 +1,36 @@
+.section-more-product {
+	.responsive-n {
+		.cardy-st {
+			border: 0;
+			width: 100%;
+			height: auto;
+			img {
+				height: 62px;
+				width: 100%;
+				margin: 0 auto;
+				object-fit: contain;
+			}
+		}
+	}
+	.cartds-area {
+		border: 0;
+	}
+	.title-product-area {
+		height: 40px;
+		overflow: hidden;
+		text-align: center;
+		margin-top: 7px;
+	}
+}
+section.section-more-product {
+	padding-top: 25px;
+	margin-bottom: -35px;
+}
+section.section-more {
+	padding-top: 23px;
+}
+.modal-body {
+	img {
+		width: 100%;
+	}
+}

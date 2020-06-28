@@ -1,0 +1,42 @@
+@mixin font-face($font-name, $path, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: quote($font-name);
+    src:
+      url(#{$path}.woff) format("woff"),
+      url(#{$path}.eot?#iefix) format('embedded-opentype'), 
+      url(#{$path}.ttf) format("truetype");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+@include font-face('GothamPro-Bold', '../fonts/GothamPro-Bold', normal, 'normal');
+@include font-face('GothamPro-Medium', '../fonts/GothamPro-Medium', normal, 'normal');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+/* Libs */
+@import "slick.css";
+@import "jquery-ui.css";
+@import "bootstrap.css";
+@import "jquery.formstyler.css";
+@import "slicknav.css";
+@import "likely.css";
+/* blocks style */
+@import "section-header.scss";
+@import "section-main-banners.scss";
+@import "section-garage.scss";
+@import "section-popular.scss";
+@import "section-contact.scss";
+@import "section-news.scss";
+@import "section-lastview.scss";
+@import "buttons.scss";
+@import "section-footer.scss";
+@import "section-404.scss";
+@import "section-product.scss";
+@import "section-more-product.scss";
+@import "section-catalog.scss";
+/* main style */
+@import "style.scss";
+@import "media.scss";
+/* fonts syle */
+
